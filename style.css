@@ -1,0 +1,93 @@
+body {
+    font-family: Helvetica, sans-serif;
+}
+.header {
+    padding: 20px;
+    border-bottom: 1px solid #154995;
+    text-align: center;
+    }
+
+.main {
+    margin: 0 auto;
+    width: 1000px;
+    display: flex;
+    flex-grow: 1;
+    padding-top: 50px;
+}
+
+.link {
+    color: #0166ff;
+    transition: color #0166ff;
+  }
+
+.link:hover {
+    color: #154995;
+  }
+
+aside {
+    display: block;
+}
+
+.aside {
+    width: 300px;
+    flex: 0;
+}
+
+section {
+    display: block;
+}
+.main-section {
+    flex-grow: 1;
+    padding-left: 50px;
+}
+
+.contacts-icon {
+    margin-right: 20px;
+    width: 20px;
+    fill: #154995;
+    
+}
+
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+
+.title {
+    color: #154995;
+    text-align: center;
+}
+
+
+.photo {
+    background-color: #ededed;
+    padding: 20px;
+    text-align: center;
+}
+
+.subtitle {
+    border-bottom: 5px solid #154995;
+    padding-left: 10px;
+    color: #154995;
+    margin-top: 30px;
+}
+
+.list{
+    color: #154995;
+}
+footer{
+    
+    display: block;
+    height: 40px;
+    color: #154995;
+    text-align: center;
+    border-top: 2px solid #154995;
+    border-bottom: 2px solid #154995;  
+}
